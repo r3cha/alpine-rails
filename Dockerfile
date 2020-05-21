@@ -10,6 +10,6 @@ RUN ln -s /opt/yarn-v1.22.4/bin/yarnpkg /usr/local/bin/yarnpkg
 
 RUN apk update && apk add --no-cache g++ make curl git make sqlite-dev tzdata
 
-RUN gem install rails -v '6.0.2.2'
+RUN gem install rails -v '6.0.3.1'
 
 WORKDIR /home
